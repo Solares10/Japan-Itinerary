@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    background: url('Japan.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links .oval {
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .nav-links .oval:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  .search input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .hero-content h1 {
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-top: -20px;
+  }
+  
+  .destinations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  
+  .destination {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .destination h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
