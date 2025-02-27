@@ -1,8 +1,8 @@
 #Global Travel Planner Website
-Project Overview
+#Project Overview
 The Global Travel Planner Website is a web platform designed to facilitate group travel planning and create a community-driven travel experience. The website allows users to explore past trips, join upcoming trips, vote on activities, create their own itineraries, and estimate travel costs. It also features AI-powered answers to travel-related questions and an easy-to-use system for organizing and promoting group trips.
 
-Features
+#Features
 Homepage: A welcoming introduction to the travel group, with highlights of past trips and upcoming destinations. Features invitations to join special trips hosted by the site owner.
 Past Trips Gallery: A collection of photos, videos, and blogs from previous travels, providing an interactive and visually rich experience.
 Upcoming Trips: A calendar or list of upcoming group trips with trip details such as dates, destinations, activities, and estimated costs. Users can register to join these trips.
