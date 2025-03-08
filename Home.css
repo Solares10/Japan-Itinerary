@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.hero {
+    background: url('travel_plane_corona.png') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.join-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.join-btn:hover {
+    transform: scale(1.1);
+}
+
+.signup-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    transform: scale(1.1);
+}
+
+
+.viewnow-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.viewnow-btn:hover {
+    transform: scale(1.1);
+}
+.trips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 50px;
+    background: white;
+}
+
+.trip-card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.trip-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trip-card h2 {
+    margin: 15px 0;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 50px;
+    align-content: center;
+    font-family: 'Poppins-Italic', sans-serif;
+}
+
+.bubble-container {
+    display: flex;
+    justify-content: center;
+    padding: 6px 25px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
+.rowhome {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rowhome li {
+    display: inline;
+}
+
+.rowhome li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.rowhome li a p {
+    font-size: 1.75rem; /* Adjusted size for the link text */
+    font-family: 'Poppins', sans-serif; /* Changed font to Poppins */
+    font-style: italic; /* Italic style */
+    color: var(--black);
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.rowhome li a:hover p {
+    color: var(--gray-text);
+}
