@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-    background: url('Korea.png') no-repeat center center/cover;
+    background: url('travel_plane_corona.png') no-repeat center center/cover;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: rgb(11, 3, 3);
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
@@ -89,24 +89,24 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    padding: 10px;
+    padding: 50px;
     background: white;
 }
 
 .trip-card {
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 .trip-card img {
-    width: 50%;
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .trip-card h2 {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 /* Navigation Bar */
 .navbar {
@@ -117,6 +117,19 @@ nav ul li a {
     align-content: center;
     font-family: 'Poppins-Italic', sans-serif;
 }
+
+.bubble-container {
+    display: flex;
+    justify-content: center;
+    padding: 6px 25px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
 .rowhome {
     display: flex;
     gap: 100px;
