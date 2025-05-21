@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Cost</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="rowhome">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Join-trips.html">Join Trips</a></li>
+                <li><a href="activity-selection.html">Activity</a></li>
+                <li><a href="Cost.html">Cost</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cost-estimation">
+        <h1>Estimate Your Travel Cost</h1>
+        <form>
+            <label for="destination">Select Destination:</label>
+            <select id="destination">
+                <option value="japan">Japan</option>
+                <option value="korea">South Korea</option>
+                <option value="italy">Italy</option>
+            </select>
+
+            <label for="accommodation">Accommodation Type:</label>
+            <select id="accommodation">
+                <option value="hostel">Hostel</option>
+                <option value="hotel">Hotel</option>
+                <option value="luxury">Luxury</option>
+            </select>
+
+            <button type="submit">Calculate Cost</button>
+        </form>
+    </section>
+</body>
+</html>
